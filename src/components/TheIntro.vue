@@ -5,9 +5,8 @@
 	<div class="intro">
 		<div class="intro__content layout">
 			<h2>
-				I am a <span class="intro__emphasis">software engineering leader</span> 
-				who specialises in creating scaleable solutions while keeping apps engaging to the user.
-				I foster an environment where developers feel able to take risks and innovate quickly.
+				I am an <span class="intro__emphasis">experienced product engineer</span>.
+				Able to design high-quality solutions for backend and frontend systems with a strong overlap across cloud, infrastructure and data pipelines. Comfortable with incorporating LLMs into production enterprise software systems and utilising AI during development. Can perform as an independent contributor, cross-functional expert or a team lead.
 			</h2>
 		</div>
 		<div></div>
