@@ -5,8 +5,8 @@
 	<div class="intro">
 		<div class="intro__content layout">
 			<h2>
-				I am an <span class="intro__emphasis">experienced product engineer</span>.
-				Able to design high-quality solutions for backend and frontend systems with a strong overlap across cloud, infrastructure and data pipelines. Comfortable with incorporating LLMs into production enterprise software systems and utilising AI during development. Can perform as an independent contributor, cross-functional expert or a team lead.
+				I am an <span class="intro__emphasis">experienced product engineer</span> and a <span class="intro__emphasis">technical leader</span>.
+				Able to design and implement robust distributed systems with a strong skill overlap across cloud, infrastructure and data pipelines. Comfortable with incorporating LLMs into production enterprise software systems and utilising AI during development. Can perform as an independent contributor or a technical team leader.
 			</h2>
 		</div>
 		<div></div>
@@ -28,7 +28,7 @@
 }
 
 h2 {
-  width: 50%;
+  width: 70%;
 
   font-size: 1.8rem;
   text-align: justify;

@@ -86,9 +86,9 @@ const project = toRef(props, 'project');
 
 <style scoped lang="scss">
 $badge-colors: (
-  "vuejs": #34495e,
-  "reactjs": #61dafb,
-  "nodejs": #539e43,
+  "vue": #34495e,
+  "react": #61dafb,
+  "typescript": #539e43,
   "serverless": #fd5750,
   "graphql": #e535ab,
   "geolocation": rgb(0, 34, 255),
@@ -96,12 +96,28 @@ $badge-colors: (
   "awscdk": #ffc32f,
 	"vite": #a365f8,
 	"quasar": #42a5f5,
-	"vuecli": #34495e, 
+	"redis": #34495e, 
 	"vuetify": #7bc6ff, 
-	"webpack": #1c78c0,
-	"cracli": #09d3ac,
+	"express": #1c78c0,
+	"python": #09d3ac,
 	"canvas": rgb(70, 70, 70),
-	"nosql": rgb(70, 70, 70) 
+	"flask": rgb(70, 70, 70),
+	"nestjs": #e0234e,
+	"apacheecharts": #c23531,
+	"nodejs": #3c873a,
+	"vercel": #000000,
+	"azureaifoundry": #007fff,
+	"mssql": #d9534f,
+	"snowflake": #28a9e0,
+	"dynamodb": #405de6,
+	"meow": #ff4500,
+	"commander": #ff4500,
+	"gpt5": #6e5494,
+	"oss120b": #6e5494,
+	"claude": #ff4500,
+	"gemini": #6e5494,
+	"nosql": #34495e,
+	"bedrock": #6e5494
 );
 
 .item {

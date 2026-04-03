@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import { mdiCircle, mdiFullscreen, mdiFullscreenExit, mdiChevronRight, mdiChevronLeft } from '@mdi/js';
+import { mdiCircle, mdiFullscreen, mdiFullscreenExit, mdiChevronRight, mdiChevronLeft, mdiImageOff } from '@mdi/js';
 
 const props = defineProps({
   imgUrls: Array
@@ -10,7 +10,10 @@ const fullscreen = ref(false);
 </script>
 
 <template>
-	<q-carousel
+	<div v-if="!props.imgUrls || props.imgUrls.length === 0" class="carousel carousel--empty shadow-2">
+		<q-icon :name="mdiImageOff" size="4rem" color="grey-5" />
+	</div>
+	<q-carousel v-else
 		animated
 		swipeable
 		transition-prev="jump-right"
@@ -76,6 +79,13 @@ const fullscreen = ref(false);
   .q-carousel__slide {
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  &--empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
   }
 }
 
