@@ -59,6 +59,16 @@ const projects = [
     ]
   },
   {
+    name: '(2022) New enterprise user onboarding app',
+    description: 'New enterprise users and customer accounts were launched using this internal portal. It allowed for product configuration management, automated communications, onboarding status management and contract management.',
+    technologies: ['React', 'Python', 'Flask', 'SQLAlchemy', 'PostgreSQL'],
+    previewUrl: '',
+    domain: '[n/a]',
+    frontendSource: '',
+    backendSource: '',
+    imgUrls: []
+  },
+  {
     name: '(2021) Stock locator for car configurator websites',
     description: 'This app allows users to find new vehicles which match their desired car\
     configuration in the best way possible. The backend service collects data from vehicle data libraries and stock\

@@ -117,7 +117,9 @@ $badge-colors: (
 	"claude": #ff4500,
 	"gemini": #6e5494,
 	"nosql": #34495e,
-	"bedrock": #6e5494
+	"bedrock": #6e5494,
+	"sqlalchemy": #34495e,
+	"postgresql": #336791
 );
 
 .item {
